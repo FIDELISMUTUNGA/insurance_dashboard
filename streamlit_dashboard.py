@@ -9,7 +9,7 @@ st.title("Insurance Dataset Interactive Dashboard")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\Admin\Downloads\archive (4)\insurance.csv")
+    df = pd.read_csv(r"insurance.csv")
     return df
 
 df = load_data()
